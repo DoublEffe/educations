@@ -69,4 +69,4 @@ node_modules/
 
 dist
 firebase.json
-webpack.config.json
+webpack.config.js
