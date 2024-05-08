@@ -51,7 +51,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![LifeIndex Screen Shot]()
+![Page Screen Shot](https://github.com/DoublEffe/educations/blob/main/screenshoots/all.png)
 
 
 
@@ -82,7 +82,7 @@ A you can se the page is divided in two section the map and the search bar.
 
 ### Map
 
-![Map Screen Shot]()
+![Map Screen Shot](https://github.com/DoublEffe/educations/blob/main/screenshoots/map.png)
 
 In this map you can just click on a region to see data about people reading books: 
   - People above 6 years old that read at least one book per year;
@@ -92,13 +92,13 @@ If you are seeing n.d this means that data are unavailable.
 
 ### Search Bar
 
-![Search Bar Screen Shot]()
+![Search Bar Screen Shot](https://github.com/DoublEffe/educations/blob/main/screenshoots/search.png)
 
 In this serach bar you can search a book category and see all books in that category, and for aech book show title and authors.
 
 ## Book Description
 
-![Search Result]()
+![Search Result](https://github.com/DoublEffe/educations/blob/main/screenshoots/searchplus.png)
 
 Each book can be clicked to show description and a graph that indicates in how many different categories the book appear.
   
