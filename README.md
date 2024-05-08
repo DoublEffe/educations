@@ -95,7 +95,7 @@ If you are seeing n.d this means that data are unavailable.
 
 In this serach bar you can search a book category and see all books in that category, and for aech book show title and authors.
 
-## Book Description
+### Book Description
 
 ![Search Result](https://github.com/DoublEffe/educations/blob/main/screenshoots/searchplus.png)
 
