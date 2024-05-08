@@ -88,7 +88,7 @@ In this map you can just click on a region to see data about people reading book
   - People above 6 years old that read at least one book per year;
   
 If you are seeing n.d this means that data are unavailable.
-(all data are gathered from Istat)
+(all data are gathered from Istat and can take some time)
 
 ### Search Bar
 
