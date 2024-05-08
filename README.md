@@ -40,6 +40,7 @@
       <ul>
         <li><a href="#map">Map</a></li>
         <li><a href="#Search Bar">Search Bar</a></li>
+        <li><a href="#Book Description">Book Description</a></li>
       </ul>
     </li> 
   </ol>
