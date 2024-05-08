@@ -53,6 +53,10 @@ body {
   flex-direction: column;
 }
 
+.authors {
+  align-self: center;
+}
+
 .desc-div {
   width: 300px;
 }
