@@ -42,7 +42,6 @@
         <li><a href="#Search Bar">Search Bar</a></li>
       </ul>
     </li> 
-    <li><a href="#license">License</a></li>
   </ol>
 </details>
 
@@ -103,15 +102,6 @@ In this serach bar you can search a book category and see all books in that cate
 Each book can be clicked to show description and a graph that indicates in how many different categories the book appear.
   
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
