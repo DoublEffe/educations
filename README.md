@@ -39,8 +39,8 @@
       <a href="#usage">Usage</a>
       <ul>
         <li><a href="#map">Map</a></li>
-        <li><a href="#Search Bar">Search Bar</a></li>
-        <li><a href="#Book Description">Book Description</a></li>
+        <li><a href="#search Bar">Search Bar</a></li>
+        <li><a href="#book Description">Book Description</a></li>
       </ul>
     </li> 
   </ol>
