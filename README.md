@@ -64,7 +64,7 @@
 This web page use only javascript.
 
 * [![javascript][javascript]][javascript-url]
-  Libraries used:
+Libraries used:
   * [![axios][axios]][axios-url]
   * [![chartjs][chartjs]][chartjs-url]
   * [![tippy][tippy]][tippy-url]
