@@ -63,7 +63,7 @@
 
 This web page use only javascript.
 
-* [![javascript][javascript]][javascript-url]__
+* [![javascript][javascript]][javascript-url]<br />
 Libraries used:
   * [![axios][axios]][axios-url]
   * [![chartjs][chartjs]][chartjs-url]
