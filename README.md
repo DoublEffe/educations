@@ -118,7 +118,7 @@ Each book can be clicked to show description and a graph that indicates in how m
 [javascript]: https://img.shields.io/badge/Javascript-grey?style=for-the-badge&logo=javascript
 [axios]: https://img.shields.io/badge/Axios-grey?style=for-the-badge&logo=axios
 [chartjs]: https://img.shields.io/badge/Chart.js-grey?style=for-the-badge&logo=chart.js
-[tippy]: https://img.shields.io/badge/Tippy-grey?style=for-the-badge&logo=tippy
+[tippy]: https://img.shields.io/badge/Tippy.js-grey?style=for-the-badge&logo=tippy
 [javascript-url]: https://www.javascript.com/
 [axios-url]: https://axios-http.com/docs/intro
 [chartjs-url]: https://www.chartjs.org/
