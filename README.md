@@ -61,12 +61,13 @@
 
 ### Built With
 
-This web page use only javascript and some libraries.
+This web page use only javascript.
 
 * [![javascript][javascript]][javascript-url]
-* [![axios][axios]][axios-url]
-* [![chartjs][chartjs]][chartjs-url]
-* [![tippy][tippy]][tippy-url]
+  Libraries used:
+  * [![axios][axios]][axios-url]
+  * [![chartjs][chartjs]][chartjs-url]
+  * [![tippy][tippy]][tippy-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
