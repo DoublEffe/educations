@@ -135,25 +135,42 @@ searchBox.onfocusout = () => {
 
 //information after the search
 const bookBox = (works) => {
-  let bookDiv = createElementN('div', {'id': 'info'}, formDiv)
+  let booksDiv = createElementN('div', {'id': 'info'}, formDiv)
   //create a paragraph with title and authors element for each book
-  works.forEach(book => {
-    let title = createElementN('p', {'class': 'book-title'}, bookDiv)
-    title.innerText = 'Book Title: ' + book.title.toUpperCase()
-    let p = createElementN('p', {'class': 'book-info'}, title)
-    p.innerText = 'Authors: '
+  let detailPanels = {}
+  works.forEach((book, i) => {
+    detailPanels[i] = false
+    let bookDiv = createElementN('div', {'class': 'book-div'}, booksDiv)
+    bookDiv.innerText = 'Book Title: ' + book.title.toUpperCase()
+    let authorsDiv = createElementN('div', {'class': 'authors-div'}, bookDiv)
+    authorsDiv.innerText = 'Authors: '
     book.authors.forEach(author => {
-      let authorText = createElementN('p', {'class': 'authors'}, p)
+      let authorText = createElementN('p', {'class': 'authors'}, authorsDiv)
       authorText.innerText = author.name
     })
+    let brake = createElementN('div', {'class': 'brake'}, bookDiv)
+    let show = createElementN('div', {'class': 'show'}, bookDiv)
+    show.innerText = 'Show Details'
     //showing the description for each book
-    title.addEventListener('click', () => descBox(book.key, title))
+    show.addEventListener('click', () => {
+      if(detailPanels[i]) {
+        detailPanels[i] = false
+        let descDiv = document.querySelector('.desc-div')
+        descDiv.remove()
+        show.innerText = 'Show Details'
+      }
+      else{
+        show.innerText = 'Hide Details'
+        detailPanels[i] = true
+        descBox(book.key, bookDiv, show)
+      }
+    });
   }) 
 }
 
 //description and canva that appear after clicking a book
-const descBox = async (key, title) => {
-  let descDiv = createElementN('div', {'class': 'desc-div'}, title)
+const descBox = async (key, bookDiv, show) => {
+  let descDiv = createElementN('div', {'class': 'desc-div'}, bookDiv)
   let p = createElementN('p', {}, descDiv)
   let graph = createElementN('canvas', {'class': 'graph'}, descDiv)
   try{
