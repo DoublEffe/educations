@@ -100,13 +100,13 @@ If you are seeing n.d this means that data are unavailable.
 
 ![Search Bar Screen Shot](https://github.com/DoublEffe/educations/blob/main/screenshoots/search.png)
 
-In this serach bar you can search a book category and see all books in that category, and for aech book show title and authors.
+In this serach bar you can search a book category and see all books in that category, and for each book show title and authors.
 
 ### Book Description
 
 ![Search Result](https://github.com/DoublEffe/educations/blob/main/screenshoots/searchplus.png)
 
-Each book can be clicked to show description and a graph that indicates in how many different categories the book appear.
+ On each book there is a Show Details that can be clicked to show description and a graph that indicates in how many different categories the book appear.
   
 
 
