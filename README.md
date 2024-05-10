@@ -12,11 +12,11 @@
     <a href="https://github.com/DoublEffe/life-quality"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://life-quality-index.web.app/">View Demo</a>
+    <a href="https://education-e60b5.web.app/">View Demo</a>
     ·
-    <a href="https://github.com/DoublEffe/life-quality/issues">Report Bug</a>
+    <a href="https://github.com/DoublEffe/educations/issues">Report Bug</a>
     ·
-    <a href="https://github.com/DoublEffe/life-quality/issues">Request Feature</a>
+    <a href="https://github.com/DoublEffe/educations/issues">Request Feature</a>
   </p>
 </div>
 
