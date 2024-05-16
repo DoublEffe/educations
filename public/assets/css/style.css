@@ -2,79 +2,54 @@ body {
   height: 100vh;
 }
 
-.main {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.map {
-  width: 560.512px;
-  height: 663.114px;
-  display: block;
+.navbar {
+  background-color: #77adff;
 }
 
 .regione {
   transition: all 200ms ease-in-out;
   position: relative;
   fill: #3E5C73;
-  stroke: #3E5C73;
-  stroke-width: 2;
+  stroke: white;
+  stroke-width: 1;
   stroke-miterlimit: 10;
+  cursor: pointer;
 }
 
-.form-div {
-  display: flex;
-  flex-direction: column;
+#map {
+  cursor: pointer;
 }
 
-.search-div {
-  display: flex;
+.loader {
+  border: 3px solid #f3f3f3; 
+  border-top: 3px solid #3E5C73; 
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 2s linear infinite;
 }
 
-#info{
-  width: 300px;
-  height: 100vh;
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
-.book-div {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid grey;
-  border-radius: 5px;
-  align-items: center;
-  margin: 5px 0 5px 0;
-}
-
-.authors-div {
-  display: flex;
-  flex-direction: column;
-}
-
-.authors {
-  align-self: center;
+.card-body {
+  color: white;
+  background-color: #3E5C73;
 }
 
 .brake {
   width: 100%;
   height: 2px;
-  background-color: grey;
+  background-color: white;
 }
 
-.show {
-  width: 100%;
-  height: 25px;
+#details {
   cursor: pointer;
+  color: white;
 }
 
-.desc-div {
-  width: 300px;
-}
 
-.graph {
-  width: 200px;
-  height: 100px;
-}
+
 

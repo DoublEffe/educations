@@ -70,6 +70,7 @@ Libraries used:
   * [![axios][axios]][axios-url]
   * [![chartjs][chartjs]][chartjs-url]
   * [![tippy][tippy]][tippy-url]
+  * [![bootstrap][bootstrap]][bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +85,7 @@ There isn't much to do jut open the page.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-A you can se the page is divided in two section the map and the search bar.
+A you can se the page present itself with a navbar with two option map and a search bar.
 
 ### Map
 
@@ -119,8 +120,10 @@ In this serach bar you can search a book category and see all books in that cate
 [axios]: https://img.shields.io/badge/Axios-grey?style=for-the-badge&logo=axios
 [chartjs]: https://img.shields.io/badge/Chart.js-grey?style=for-the-badge&logo=chart.js
 [tippy]: https://img.shields.io/badge/Tippy.js-grey?style=for-the-badge&logo=tippy
+[bootstrap]: https://img.shields.io/badge/Bootstrap.js-grey?style=for-the-badge&logo=tippy
 [javascript-url]: https://www.javascript.com/
 [axios-url]: https://axios-http.com/docs/intro
 [chartjs-url]: https://www.chartjs.org/
 [tippy-url]: https://atomiks.github.io/tippyjs/
+[bootstrap-url]: https://getbootstrap.com/
 

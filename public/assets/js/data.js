@@ -24,7 +24,13 @@ class Regions {
   }
 
   #keys = Object.keys(this.#data)
+
   constructor(){}
+
+  getLength() {
+    return this.#keys.length
+  }
+
   getNames(i) {
     return this.#keys[i]
   }
