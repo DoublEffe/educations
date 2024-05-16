@@ -4,7 +4,7 @@
 <div align="center">
   
 
-  <h3 align="center">Life Index Quality</h3>
+  <h3 align="center">Educations</h3>
 
   <p align="center">
     A place when you can search BLI (Better Life Index) by regions or city. 
