@@ -91,18 +91,19 @@ function drawMap(g) {
 }
 
 //cards functions
-function showHide(show, detailPanelsIndex, key, bookDiv) {
+function showHide(show, detailPanelsIndex, index, key, bookDiv) {
+  let descDiv = ''
   show.addEventListener('click', () => {
     if(detailPanelsIndex) {
       detailPanelsIndex = false
-      let descDiv = document.getElementById('desc')
-      descDiv.remove()
+      descDiv[index].remove()
       show.innerText = 'Show Details'
     }
     else{
       show.innerText = 'Hide Details'
       detailPanelsIndex = true
       descBox(key, bookDiv, show)
+      descDiv = document.querySelectorAll('#desc')
     }
   })
 }
@@ -194,7 +195,7 @@ const bookBox = (works) => {
     let show = createElementN('div', {'class': ['card-text'], 'id': 'details'}, bookBody)
     show.innerText = 'Show Details'
     //showing the description for each book
-    showHide(show, detailPanels[i], book.key, bookDiv)
+    showHide(show, detailPanels[i], i, book.key, bookDiv)
   }) 
 }
 
@@ -236,7 +237,7 @@ let nav = createElementN('nav', {'class': ['navbar']}, body)
 let div = createElementN('div', {'class': ['container-fluid', 'justify-content-center']}, nav)
 let gotToMap = createElementN('a', {'class': ['navbar-brand'], 'id': 'map'}, div)
 gotToMap.innerText = 'MAP'
-let form = createElementN('form', {'id': '#form', 'class': ['d-flex']}, div)
+let form = createElementN('form', {'class': ['d-flex']}, div)
 let input = createElementN('input', {'name': 'search-bar', 'class': ['form-control', 'form-control-lg', 'mx-1'], 'placeholder': 'Category', 'id': 'input'}, form)
 let searchButton = createElementN('button', {'type': 'submit', 'class': ['btn', 'btn-primary'], 'id': 'search'}, form)
 searchButton.setAttribute('disabled', 'true')
@@ -278,8 +279,11 @@ const pageEvents = {
 
 //logic of the navbar
 div.addEventListener('click', (event) => {
-  let click = event.target.getAttribute('id')
   event.preventDefault()
+  let click = event.target.getAttribute('id')
+  if(click === null) {
+    return
+  }
   handleMainDiv()
   pageEvents[click]()
   input.value = ''
